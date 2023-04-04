@@ -1,0 +1,13 @@
+.title {
+    font-size: 15vh;
+    color: rgb(92, 80, 80)!important;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -30px;
+    z-index: 2;
+  }
+  h1 {
+    margin: 0%;
+    padding: 0%;
+  }
