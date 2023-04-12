@@ -9,8 +9,8 @@ const ComboBox = () => {
         {combos.map((combo, index) => (
           <label key={index} className="combo-box__title">
             {combo.title}
-            <div className="combo-box__price">{combo.price}</div>
-            <input type="checkbox" />
+            <div className="combo-box__description">({combo.description})</div>
+            <div className="combo-box__price">{combo.price}<input type="checkbox" /></div>
           </label>
         ))}
       </div>

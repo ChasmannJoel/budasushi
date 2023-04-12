@@ -13,18 +13,23 @@
     border-radius: 2rem;
     padding: 5rem;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5rem;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
   }
   
   .combo-box__title {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
   }
   
   .combo-box__price {
+    color: rgb(182, 61, 28);
+    font-weight:bold;    
+    font-size: 1.7rem;
+  }
+
+  .combo-box__description {
     font-weight:lighter;    
-    font-size: 1.25rem;
+    font-size: 0.7rem;
   }
