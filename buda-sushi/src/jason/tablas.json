@@ -1,0 +1,17 @@
+[
+{
+    "title": "Especial",
+    "price": "6100$",
+    "description": "Avocado Roll, alaska, Tamago, salmon, Kaizen, Oubatori, niguiri fuego(salmon flambeado), Niguiri ebi (Niguiri de langostino)"
+  },
+  {
+    "title": "Clasica",
+    "price": "5000$",
+    "description":"California, Tamago con premie de mani (sin arroz), Philadelphia, tuna y Avocado"
+  },
+  {
+    "title": "OmaKase",
+    "price": "5000$",
+    "description":"Piezas a eleccion del sushichef"
+  }
+]
