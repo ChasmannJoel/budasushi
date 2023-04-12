@@ -1,34 +1,21 @@
 import React from "react";
 import "./css/combobox.css";
+import combos from '../src/jason/combos.json'
 
-const ComboBox = ({ title, price }) => {
+const ComboBox = () => {
   return (
     <div className="combocontainer">
       <div className="combo-box">
-
-        <div className="combo-box__title">combo1
-          <div className="combo-box__price">34353$</div>
-        </div>
-        <div className="combo-box__title">combo2
-          <div className="combo-box__price">34353$</div>
-        </div>
-        <div className="combo-box__title">combo3
-          <div className="combo-box__price">34353$</div>
-        </div>
-        <div className="combo-box__title">combo4
-          <div className="combo-box__price">34353$</div>
-        </div>
-        <div className="combo-box__title">combo5
-          <div className="combo-box__price">34353$</div>
-        </div>
-        <div className="combo-box__title">combo6
-          <div className="combo-box__price">34353$</div>
-        </div>
-        
+        {combos.map((combo, index) => (
+          <label key={index} className="combo-box__title">
+            {combo.title}
+            <div className="combo-box__price">{combo.price}</div>
+            <input type="checkbox" />
+          </label>
+        ))}
       </div>
     </div>
-    
   );
 };
 
-export default ComboBox;
+export default ComboBox;  
