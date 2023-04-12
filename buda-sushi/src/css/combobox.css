@@ -1,0 +1,32 @@
+.combocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.combo-box {
+    background-image: url('../../src/assets/fondocombo7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(230, 43, 43, 0.048);
+    border-radius: 2rem;
+    border: 4px solid rgba(131, 126, 126, 0.301);
+    padding: 5rem;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  
+  .combo-box__title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .combo-box__price {
+    font-weight:lighter;    
+    font-size: 1.25rem;
+  }
