@@ -1,26 +1,62 @@
 [
     {
-      "title": "combo1",
-      "price": "34353$"
+      "title": "Philadephia",
+      "price": "1800$",
+      "description": "Salmon y queso"
     },
     {
-      "title": "combo2",
-      "price": "34353$"
+      "title": "Avocado",
+      "price": "1800$",
+      "description":"Langostino empanado y queso envuelto en palta"
     },
     {
-      "title": "combo3",
-      "price": "34353$"
+      "title": "Tuna",
+      "price": "1800$",
+      "description":"Atun y queso"
     },
     {
-      "title": "combo4",
-      "price": "34353$"
+      "title": "California",
+      "price": "1800$",
+      "description":"Tartar de surimi"
     },
     {
-      "title": "combo5",
-      "price": "34353$"
+      "title": "Maki",
+      "price": "1800$",
+      "description":"Alga por afuera con salmon"
     },
     {
-      "title": "combo6",
-      "price": "34353$"
-    }
+        "title": "Oubaitori",
+        "price": "2000$",
+        "description":"Roll de qyesi y langostinos empanados envueltos en tamago y guacamole"
+      },
+      {
+        "title": "Kaizen",
+        "price": "1800$",
+        "description":"Roll de atun picante y empanado en panco"
+      },
+      {
+        "title": "Wabis-sabi",
+        "price": "1800$",
+        "description":"Roll de langostinos empanados y tartar de surimi con salsa teriyaky y batata crocante"
+      },
+      {
+        "title": "Gaman",
+        "price": "1800$",
+        "description":"Roll de queso salmon y toques citricos"
+      },
+      {
+        "title": "Ikigai",
+        "price": "1800$",
+        "description":"Roll de queso y pata cubierto de tartar, surimi y salsa teriyaki"
+      },
+    {
+      "title": "Alaska",
+      "price": "2000$",
+      "description":"Roll envuelto en tartar de surimi"
+    },
+    {
+        "title": "Shikita ganai",
+        "price": "2100$",
+        "description":"Salmon y queso envuelto en salmon flambeado"
+      }
   ]
